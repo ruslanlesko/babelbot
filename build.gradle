@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.leskor'
-version = '0.0.1-SNAPSHOT'
+version = project.hasProperty('version') ? project.version : new Date().format('yyyy.MM.dd')
 description = 'Word definition bot'
 
 java {
