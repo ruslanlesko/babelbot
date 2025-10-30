@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: BabelBot
+  main:
+    banner-mode: off
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %clr(%-5level){faint} %clr(%logger{64}){cyan} - %msg%n"
+  
