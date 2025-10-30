@@ -16,7 +16,13 @@ RUN ./gradlew dependencies --no-daemon || true
 
 COPY src src
 
-RUN ./gradlew bootJar --no-daemon
+# Accept version as build argument
+ARG VERSION
+RUN if [ -n "$VERSION" ]; then \
+      ./gradlew bootJar -Pversion="$VERSION" --no-daemon; \
+    else \
+      ./gradlew bootJar --no-daemon; \
+    fi
 
 # Runtime stage
 FROM eclipse-temurin:25-jre-alpine
