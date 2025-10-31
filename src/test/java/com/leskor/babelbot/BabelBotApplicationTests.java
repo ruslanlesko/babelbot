@@ -6,8 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class BabelBotApplicationTests {
 
-	@Test
-	void contextLoads() {
-		// This test should fail if the application context cannot start
-	}
+    @Test
+    void contextLoads() {
+        // This test should fail if the application context cannot start
+    }
 }
