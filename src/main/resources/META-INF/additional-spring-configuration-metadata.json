@@ -1,0 +1,9 @@
+{
+    "properties": [
+        {
+            "name": "babelbot.wiktionary.base-url",
+            "type": "java.lang.String",
+            "description": "Base URL for the Wiktionary API"
+        }
+    ]
+}

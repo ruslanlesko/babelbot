@@ -7,4 +7,8 @@ spring:
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %clr(%-5level){faint} %clr(%logger{64}){cyan} - %msg%n"
+
+babelbot:
+  wiktionary:
+    base-url: https://en.wiktionary.org
   
