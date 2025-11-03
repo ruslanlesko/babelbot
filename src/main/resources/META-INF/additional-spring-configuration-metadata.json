@@ -4,6 +4,11 @@
             "name": "babelbot.wiktionary.base-url",
             "type": "java.lang.String",
             "description": "Base URL for the Wiktionary API"
+        },
+        {
+            "name": "babelbot.telegram.bot-token",
+            "type": "java.lang.String",
+            "description": "Telegram bot token"
         }
     ]
 }

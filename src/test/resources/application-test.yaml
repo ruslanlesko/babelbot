@@ -1,0 +1,5 @@
+babelbot:
+  telegram:
+    bot-token: test-token
+  wiktionary:
+    base-url: https://en.wiktionary.org
